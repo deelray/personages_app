@@ -1,0 +1,22 @@
+main {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 40px;
+
+  &__input {
+    margin: 20px;
+  }
+}
+
+.form-control {
+  margin-bottom: 30px;
+}
+
+.border {
+  padding: 25px;
+  border-radius: 15px;
+}
