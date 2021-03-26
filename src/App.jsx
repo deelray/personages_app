@@ -16,9 +16,9 @@ function App() {
   return (
     <main>
       <h1>Personages:</h1>
-      {people.map((person) => {
-        return <PersonCard {...person} key={person.name} />
-      })}
+      {people.map((person) => (
+        <PersonCard {...person} key={person.name} />
+      ))}
     </main>
   );
 }
